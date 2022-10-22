@@ -11,8 +11,8 @@ func main() {
 	http.ListenAndServe(":8888", nil)
 }
 func server(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "узбеки")
+	fmt.Fprint(w, "readtext")
 }
 func server1(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "goblin")
+	fmt.Fprint(w, "smiletext")
 }
